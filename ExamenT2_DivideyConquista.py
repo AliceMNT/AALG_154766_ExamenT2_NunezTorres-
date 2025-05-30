@@ -45,7 +45,6 @@ def main():
 
     resultado = coordenadamasLejana(coordenadas)
 
-    # Si el resultado es [0, 0], no se encontró ninguno válido
     if resultado[0] == 0 and resultado[1] == 0:
         print("\nLo sentimos, no hay coordenadas en el cuarto cuadrante D:")
     else:
